@@ -1,0 +1,13 @@
+env: "local"
+postgres:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "root"
+  dbname: "tasks_microservice"
+  sslmode: "disable"
+RabbitMQ:
+  User: "guest"
+  Password: "guest"
+  Host: "localhost"
+  RabbitMQPort: 5672
